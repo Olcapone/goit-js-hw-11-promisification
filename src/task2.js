@@ -28,8 +28,3 @@ const logger = updatedUsers => console.table(updatedUsers);
 toggleUserState(users, 'Mango').then(logger);
 toggleUserState(users, 'Lux').then(logger);
 
-const myPage = document.querySelector('.task-2');
-            const el = document.createElement('p');
-            el.innerHTML = '&#128580';
-
-            myPage.append(el);
